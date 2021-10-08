@@ -35,9 +35,9 @@ urlpatterns = [
     path("rest-auth/registration/", include("rest_auth.registration.urls")),
 ]
 
-admin.site.site_header = "OnePlusModal"
-admin.site.site_title = "OnePlusModal Admin Portal"
-admin.site.index_title = "OnePlusModal Admin"
+admin.site.site_header = "DEP OnePlusModal"
+admin.site.site_title = "DEP OnePlusModal Admin Portal"
+admin.site.index_title = "DEP OnePlusModal Admin"
 
 # swagger
 api_info = openapi.Info(
